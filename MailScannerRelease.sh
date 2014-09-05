@@ -1,5 +1,7 @@
 #!/usr/bin/perl
-
+# https://github.com/wraythezw/RandomScripts/
+# Email keith.rose.zw@gmail.com
+# Licensed under the MIT License
 $quarantine_dir = '/var/spool/MailScanner/quarantine';
 $days_to_keep   = 1;
 

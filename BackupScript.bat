@@ -1,9 +1,9 @@
 @echo off
-echo ************************************
-echo *   Very Basic Backup Script       *
-echo *                                  *
-echo *                                  *
-echo ************************************
+echo *********************************************
+echo *            Very Basic Backup Script       *
+echo *              MIT License                  *
+echo *         keith.rose.zw@gmail.com           *
+echo *********************************************
 
 set folder=z:\backups\%date:/=_%_backup
 if exist %folder% (
