@@ -47,7 +47,7 @@ echo '</YealinkIPPhoneDirectory>' >> $file_out
 echo "4....Copying phonebook to /var/www/html/phonebook.xml"
 cp /tmp/exp5.xml /var/www/html/phonebook.xml
 echo "5....Fixing permissions"
-chmod 777 /var/www/html/phonebook.xml
+chmod 644 /var/www/html/phonebook.xml
 
 echo "6....Tidying up"
 # tidying up
